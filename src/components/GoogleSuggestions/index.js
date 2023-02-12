@@ -58,7 +58,7 @@ class GoogleSuggestions extends Component {
             </div>
             <ul className="suggestions-list">
               {searchResults.map(eachSuggestion => (
-                {/* FIX6: The component name should start with capital letter */}
+             //   {/* FIX6: The component name should start with capital letter */}
                 <SuggestionItem
                   key={eachSuggestion.id}
                   suggestionDetails={eachSuggestion}
